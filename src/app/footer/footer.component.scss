@@ -1,0 +1,33 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footer-main {
+  background-color: #f3f9fe;
+  width: 100%;
+}
+
+.footer-menu {
+  max-width: 70%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.copyright-area {
+  background-color: #021a32;
+  color: #f3f9fe;
+}
+
+.copyright-area-content {
+  max-width: 70%;
+  min-height: 50px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
